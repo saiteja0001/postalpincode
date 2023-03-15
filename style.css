@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    font-family: 'Crimson Pro', serif;
+    background-image: linear-gradient(to right, #735aa0, #3a866e);
+    background-attachment: fixed;
+    align-items: center;
+   
+}
+    
+    h2{
+    color: #3d64e6;
+    text-shadow: 0 0 3px #130a0d, 0 0 2px #090b0f;
+
+}
+
+.app-main{
+    padding: 20px;
+    width: 90%;
+    color: rgb(12, 8, 1);
+    text-align: center;
+    border-radius: 20px;
+    max-width: 650px;
+    margin-top: 50px;
+    background-color: #fdfdfd;
+   
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; 
+}
+    input {
+    width: 100%;
+  background-color: aliceblue;
+   background: transparent;
+    color: #0f080a;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    text-align: center;
+    border-bottom: 4px solid #6363a7;
+    border-radius: 10px;
+}
+.btn{
+    background-color: #3d64e6;
+    color: #faf7f8;
+    width: 100px;
+   font-size: 20px;
+    border-radius:10px;
+
+}
+.btn:hover{
+    background-color:white;
+    color: #3d64e6;
+    border: 1px solid black;
+}
+#result{
+
+font-size:21px;
+    /* color: rgb(14, 12, 12); */
+    color: rgb(10, 9, 9);
+}
+
+.content{
+    border-radius: 10px;
+}
+@media (max-width:400px){
+    #result{
+       font-size:18px;
+         }
+         
+}
